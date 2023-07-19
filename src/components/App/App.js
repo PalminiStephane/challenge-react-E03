@@ -1,14 +1,12 @@
-// == Import
-import './styles.css';
+import './App.scss';
 
 import Header from '../Header/Header';
 import Main from '../Main/Main';
 import Footer from '../Footer/Footer';
 
-// == Composant
 function App() {
   return (
-    <div className="app">
+    <div className="App">
       <Header />
       <Main />
       <Footer />
@@ -16,5 +14,4 @@ function App() {
   );
 }
 
-// == Export
 export default App;

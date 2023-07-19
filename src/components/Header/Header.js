@@ -1,6 +1,8 @@
+import "./Header.scss";
+
 function Header() {
   return (
-    <div>
+    <div className="Header">
       <h1>Titre du header</h1>
     </div>
   );
