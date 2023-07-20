@@ -1,11 +1,12 @@
+import Box from "../Box/Box";
 import Title from "../Title/Title";
 import "./Header.scss";
 
 function Header() {
   return (
-    <div className="Header">
+    <Box className="Header">
       <Title text="Titre du header" />
-    </div>
+    </Box>
   );
 }
 
