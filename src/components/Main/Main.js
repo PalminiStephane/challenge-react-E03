@@ -1,12 +1,14 @@
+import './Main.scss';
+
+import Title from "../Title/Title";
+import Ingredients from '../Ingredients/Ingredients';
+
 function Main() {
   return (
-    <div>
-      <h1>Titre du main</h1>
-      <ul>Liste de courses dans main
-        <li>farine</li>
-        <li>lait</li>
-        <li>oeuf</li>
-      </ul>
+    <div className="Main">
+      <Title text="Titre du main" />
+      <p>Liste de courses dans main</p>
+      <Ingredients />
     </div>
   );
 }

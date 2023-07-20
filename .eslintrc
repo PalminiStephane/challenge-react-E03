@@ -36,7 +36,8 @@
     "object-shorthand": "off",
     "react/jsx-uses-react": "off",
     "react/react-in-jsx-scope": "off",
-    "quotes": "off"
+    "quotes": "off",
+    "react/prop-types": "off"
   },
   "settings": {
     "import/resolver": {

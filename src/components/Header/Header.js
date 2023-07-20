@@ -1,9 +1,10 @@
+import Title from "../Title/Title";
 import "./Header.scss";
 
 function Header() {
   return (
     <div className="Header">
-      <h1>Titre du header</h1>
+      <Title text="Titre du header" />
     </div>
   );
 }

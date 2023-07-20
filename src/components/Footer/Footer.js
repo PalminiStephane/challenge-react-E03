@@ -1,7 +1,10 @@
+import Title from "../Title/Title";
+import "./Footer.scss";
+
 function Footer() {
   return (
-    <div>
-      <h1>Titre du footer</h1>
+    <div className="Footer">
+      <Title text="Titre du footer" />
       <p>Texte du footer</p>
     </div>
   );
